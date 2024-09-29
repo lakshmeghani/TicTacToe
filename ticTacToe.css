@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #000000;
+    color: #FFED66;
+}
+
+h1{
+    margin: 1vmin;
+    font-size: 8vmin;
+    text-align: center;
+}
+
+.mode{
+    float: right;
+    height: 8vmin;
+    width: 10vmin;
+    border-radius: 15px;
+    background-color: #6A706E;
+    color: #fff;
+    font-size: 2vmin;
+
+    display: none;
+}
+
+.players{
+    display: flex;
+    /* border: 2px solid wheat */
+}
+
+.player1, .player2{
+    width: 50%;
+    text-align: center;
+    font-size: 4vmin;
+}
+
+.winner{
+    /* border: 2px solid wheat */
+    text-align: center;
+    font-size: 4vmin;
+    color: #9D8DF1;
+    display: none;
+}
+
+.container{
+    width: 60vmin;
+    height: 60vmin;
+    margin: auto;    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+    /* border: 2px solid wheat; */
+}
+
+.box{
+    height: 19vmin;
+    width: 19vmin;
+    font-size: 10vmin;
+    background-color: #89B6A5;
+    color: #DB3A34;
+    text-shadow: black 0px 0px 3px;
+    border-radius: 1.5vmin;
+}
+
+.controls{
+    text-align: center;
+}
+
+.reset{
+    height: 10vmin;
+    width: 10vmin;
+    border-radius: 15px;
+    background-color: #6A706E;
+    color: #fff;
+    font-size: 2vmin;
+    margin-top: 5vmin;
+}
+
+.pl1, .pl2{
+    height: 6vmin;
+    width: 15vmin;
+    border-radius: 15px;
+    background-color: #DB3A34;
+    color: #fff;
+    font-size: 3vmin;
+    margin-top: 5vmin;
+}
